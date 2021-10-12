@@ -1,25 +1,25 @@
-# linesForHtml
-simple script for drawing lines on html webpages
 # Documentation
-## shapify(element)
+## [lines.js](https://github.com/charlesyiu/webmodules/blob/main/graphics/lines.js)
+#### shapify(element)
 element: the element to store the lines
 returns a shape class
-## shape.refresh()
-redraws shape
-## shape.toggleDebug()
-toggles debug
-## shape.x
+### shape
+#### x
 x position of the shape (the anchor of the shape is 0, 0)
-## shape.y
+#### y
 y position of the shape (the anchor of the shape is 0, 0)
-## shape.lineWidth
+#### lineWidth
 width of the line
-## shape.lineColor
+#### lineColor
 color of the line
-## shape.appendLine(name, a, b)
+#### appendLine(name, a, b)
 name: the name of the line
 a: the x and y of point a ({'x': x, 'y': y})
 b: the x and y of point b ({'x': x, 'y': y})
-## shape.removeLine(name)
+#### removeLine(name)
 name: the name of the line
 removes the line
+#### refresh()
+redraws shape
+#### toggleDebug()
+toggles debug
