@@ -1,3 +1,8 @@
+# Using scripts
+```Html
+<script src="https://raw.githubusercontent.com/charlesyiu/webmodules/main/graphics/[filename]"></script>
+```
+(Remember to change "[filename]" to the filename of the script)
 # Documentation
 ## [lines.js](https://github.com/charlesyiu/webmodules/blob/main/graphics/lines.js)
 #### shapify(element)
