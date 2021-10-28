@@ -1,6 +1,6 @@
 # Using scripts
 ```Html
-<script src="https://raw.githubusercontent.com/charlesyiu/webmodules/stable/graphics/[filename]"></script>
+<script src="https://cdn.jsdelivr.net/gh/charlesyiu/webmodules@stable/graphics/[filename]"></script>
 ```
 (Remember to change "[filename]" to the filename of the script)
 # Documentation
