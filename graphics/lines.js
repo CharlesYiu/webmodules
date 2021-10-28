@@ -68,7 +68,7 @@ class shape {
             lineElement.setAttribute("name", `${this.id}-line`)
             lineElement.id = `${this.id}-line-${line.id}`
             lineElement.style.position = "fixed"
-            lineElement.style.borderRadius = "10px"
+            lineElement.style.borderRadius = `${this.lineWidth}px`
             lineElement.style.width = `${distance}px`
             lineElement.style.height = `${this.lineWidth}px`
             lineElement.style.left = `${(this.x + smallestPointX) - ((distance - (largestPointX - smallestPointX)) / 2)}px`
