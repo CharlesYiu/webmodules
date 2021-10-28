@@ -73,7 +73,7 @@ class shape {
             lineElement.style.height = `${this.lineWidth}px`
             lineElement.style.left = `${(this.x + smallestPointX) - ((distance - (largestPointX - smallestPointX)) / 2)}px`
             lineElement.style.top = `${this.y + ((largestPointY + smallestPointY) / 2) - (this.lineWidth / 2)}px`
-            lineElement.style.rotate = `${degrees}deg`
+            lineElement.style.transform = `rotate(${degrees}deg)`
             lineElement.style.backgroundColor = this.lineColor
             element.appendChild(lineElement)
             if (largestPointX > totalLargestPointX) { totalLargestPointX = largestPointX }
